@@ -1,20 +1,41 @@
-// shaev_labs.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿#include <iostream>
+#include <vector>
 
-#include <iostream>
+using std::cout;
+
+
+struct Pipeline
+{
+    /*
+     kilometer_sign - отметка километра на котором находится труба
+     length_of_pipe - длинна трубы в метрах (целое неотрицательное число)
+     diameter - диаметр трубы в мм (целое неотрицательное число)
+     repair_indicator - индикатор трубы на ремонте
+    */
+    unsigned int kilometer_sign;
+    unsigned int length_of_pipe;
+    unsigned short int diameter;
+    bool repair_indicator;
+
+};
+
+struct CS
+{
+    /*
+     name - наиминование (20 символов)
+     number_of_workshops - количество цехов (целое неотрицательное число)
+     workshops_in_work - количество цехов в работе (целое неотрицательное число)
+     efficiency - эффективность измеряется от 0 до 100 (целое неотрицательное число)
+    */
+    char name[20];
+    unsigned int number_of_workshops;
+    unsigned int workshops_in_work;
+    unsigned short int efficiency;
+};
 
 int main()
 {
-    std::cout << "Hello World!\n";
-}
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    Pipeline mypipe{ 10, 20, 30, true };
+    cout << mypipe.diameter;
+    return 0;
+};
