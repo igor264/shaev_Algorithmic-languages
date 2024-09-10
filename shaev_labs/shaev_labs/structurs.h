@@ -1,6 +1,8 @@
 ﻿#ifndef STRUCTURS_H_
 #define STRUCTURS_H_
 
+#include <string>
+
 struct Pipeline
 {
     /*
@@ -9,7 +11,7 @@ struct Pipeline
      diameter - диаметр трубы в мм (целое неотрицательное число)
      repair_indicator - индикатор трубы на ремонте
     */
-    unsigned int kilometer_sign;
+    std::string kilometer_sign;
     unsigned int length_of_pipe;
     unsigned short int diameter;
     bool repair_indicator;
@@ -23,7 +25,7 @@ struct CS
      workshops_in_work - количество цехов в работе (целое неотрицательное число)
      efficiency - эффективность измеряется от 0 до 100 (целое неотрицательное число)
     */
-    char name[20];
+    char name[30];
     unsigned int number_of_workshops;
     unsigned int workshops_in_work;
     unsigned short int efficiency;

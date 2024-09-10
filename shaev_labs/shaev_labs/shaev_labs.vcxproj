@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="menu.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="strucrurs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="menu.h" />
     <ClInclude Include="structurs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="pipelines.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
