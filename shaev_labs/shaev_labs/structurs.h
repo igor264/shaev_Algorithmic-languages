@@ -12,8 +12,8 @@ struct Pipeline
      repair_indicator - индикатор трубы на ремонте
     */
     std::string kilometer_sign;
-    unsigned int length_of_pipe;
-    unsigned short int diameter;
+    int length_of_pipe;
+    short int diameter;
     bool repair_indicator;
 };
 
@@ -26,9 +26,9 @@ struct CS
      efficiency - эффективность измеряется от 0 до 100 (целое неотрицательное число)
     */
     std::string name;
-    unsigned int number_of_workshops;
-    unsigned int workshops_in_work;
-    unsigned short int efficiency;
+    int number_of_workshops;
+    int workshops_in_work;
+    short int efficiency;
 };
 
 #endif /* STRUCTURS_H_ */
