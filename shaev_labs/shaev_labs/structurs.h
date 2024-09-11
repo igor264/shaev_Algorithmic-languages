@@ -20,12 +20,12 @@ struct Pipeline
 struct CS
 {
     /*
-     name - наиминование (20 символов)
+     name - наиминование 30 символов)
      number_of_workshops - количество цехов (целое неотрицательное число)
      workshops_in_work - количество цехов в работе (целое неотрицательное число)
      efficiency - эффективность измеряется от 0 до 100 (целое неотрицательное число)
     */
-    char name[30];
+    std::string name;
     unsigned int number_of_workshops;
     unsigned int workshops_in_work;
     unsigned short int efficiency;

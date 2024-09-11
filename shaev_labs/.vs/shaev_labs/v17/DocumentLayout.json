@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\pipelines.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\pipelines.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\structurs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\structurs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\cs.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\cs.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\pipelines.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\pipelines.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,25 +47,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "cs.txt",
+              "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\cs.txt",
+              "RelativeDocumentMoniker": "shaev_labs\\cs.txt",
+              "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\cs.txt",
+              "RelativeToolTip": "shaev_labs\\cs.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-10T16:20:02.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "structurs.h",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\structurs.h",
               "RelativeDocumentMoniker": "shaev_labs\\structurs.h",
               "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\structurs.h",
               "RelativeToolTip": "shaev_labs\\structurs.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-10T07:36:29.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "pipelines.txt",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\pipelines.txt",
               "RelativeDocumentMoniker": "shaev_labs\\pipelines.txt",
               "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\pipelines.txt",
               "RelativeToolTip": "shaev_labs\\pipelines.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-09-09T08:07:13.16Z",
               "EditorCaption": ""
@@ -72,9 +89,9 @@
               "Title": "menu.cpp",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.cpp",
               "RelativeDocumentMoniker": "shaev_labs\\menu.cpp",
-              "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.cpp",
-              "RelativeToolTip": "shaev_labs\\menu.cpp",
-              "ViewState": "AQIAADIAAAAAAAAAAAAawEIAAAAaAAAA",
+              "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.cpp*",
+              "RelativeToolTip": "shaev_labs\\menu.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-06T15:17:31.145Z",
               "EditorCaption": ""

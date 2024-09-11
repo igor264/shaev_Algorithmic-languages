@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <fstream>
 #include <string>
+#include <limits> 
 
 #include "structurs.h"
 
@@ -9,8 +10,10 @@ using std::cin;
 
 void Clear();
 void add_pipeline();
+void add_cs();
 void out_to_file(Pipeline new_pipeline);
-void view_pipelines();
+void out_to_file(CS new_cs);
+void view_objects();
 
 unsigned short int start_menu()
 {
@@ -19,7 +22,7 @@ unsigned short int start_menu()
 		cout << "Menu\n" << "Select menu item\n";
 		cout << "1 - add pipeline\n";
 		cout << "2 - add CS\n";
-		cout << "3 - view all pipelines\n";
+		cout << "3 - view all objects\n";
 		cout << "4 - edit pipe\n";
 		cout << "5 - edit CS\n";
 		cout << "0 - exit\n";
@@ -36,8 +39,8 @@ unsigned short int start_menu()
 		switch (menu_choice)
 		{
 		case 1: add_pipeline();
-		case 2: 2;
-		case 3: view_pipelines();
+		case 2: add_cs();
+		case 3: view_objects();
 		case 4: 4;
 		case 5: 5;
 		case 6: 6;
@@ -55,17 +58,77 @@ void add_pipeline() {
 	unsigned int length_of_pipe;
 	unsigned short int diameter;
 	bool repair_indicator;
-	cout << "enter the kilometer sign of your pipeline: ";
-	cin >> kilometer_sign;
-	cout << "enter the length of pipeline (metrs): ";
-	cin >> length_of_pipe;
-	cout << "enter the diameter of pipeline (millimetrs): ";
-	cin >> diameter;
-	cout << "Is it working or on repairing?\ntrue if it is in work, false if it is on repairing: ";
-	cin >> repair_indicator;
+	cout << "Enter the kilometer sign of your pipeline: ";
+	while (!(cin >> kilometer_sign)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter a valid kilometer sign: ";
+	}
+
+	cout << "Enter the length of pipeline (meters): ";
+	while (!(cin >> length_of_pipe)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter a valid length: ";
+	}
+
+	cout << "Enter the diameter of pipeline (millimeters): ";
+	while (!(cin >> diameter)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter a valid diameter: ";
+	}
+
+	cout << "Is it working or under repair?\nEnter '1' if it is working, '0' if it is under repair: ";
+	while (!(cin >> repair_indicator)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter '1' for working or '0' for under repair: ";
+	}
 	Pipeline new_pipeline{ kilometer_sign, length_of_pipe, diameter, repair_indicator };
 	cout << "ok!"<<std::endl;
 	out_to_file(new_pipeline);
+};
+
+void add_cs() {
+	Clear();
+
+	char name[30];
+	unsigned int number_of_workshops;
+	unsigned int workshops_in_work;
+	unsigned short int efficiency;
+
+	cout << "Enter the name of your cs: ";
+	while (!(cin >> name)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter a valid name: ";
+	};
+
+	cout << "Enter the number of workshops of cs: ";
+	while (!(cin >> number_of_workshops)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter a valid number of workshops: ";
+	};
+
+	cout << "Enter the workshops in work: ";
+	while (!(cin >> workshops_in_work)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter a valid number: ";
+	};
+
+	cout << "Enter the efficiency (1-100): ";
+	while (!(cin >> efficiency)) {
+		cin.clear();
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cout << "Invalid input. Please enter efficiency (1-100): ";
+	};
+
+	CS new_cs{ name, number_of_workshops, workshops_in_work, efficiency };
+	cout << "ok!" << std::endl;
+	out_to_file(new_cs);
 };
 
 void Clear()
@@ -80,7 +143,7 @@ void Clear()
 
 void out_to_file(Pipeline new_pipeline)
 {
-	std::ofstream out("pipelines.txt", std::ios::app);
+	std::ofstream out("pipelines.txt"/*, std::ios::app*/);// для добавления в конец
 	if (out.is_open())
 	{
 		out << new_pipeline.kilometer_sign << "\t\t" << new_pipeline.length_of_pipe << "\t\t" << new_pipeline.diameter << "\t\t" << new_pipeline.repair_indicator << std::endl;
@@ -88,16 +151,35 @@ void out_to_file(Pipeline new_pipeline)
 	}
 };
 
-void view_pipelines() {
+void out_to_file(CS new_cs)
+{
+	std::ofstream out("cs.txt"/*, std::ios::app*/);// для добавления в конец
+	if (out.is_open())
+	{
+		out << new_cs.name << "\t\t" << new_cs.number_of_workshops << "\t\t" << new_cs.workshops_in_work << "\t\t" << new_cs.efficiency << std::endl;
+		out.close();
+	}
+};
+
+void view_objects() {
 	std::string line;
-	std::ifstream file("pipelines.txt");
-	if (file.is_open()) {
-		unsigned short int number_of_line = 1;
-		cout << "number\tkilometer sign\t" << "length of pipe\t" << "diameter\t" << "repair indicator\t" << std::endl;
-		while (std::getline(file, line)) {
-			cout << number_of_line << "\t" << line << "\n";
-			number_of_line++;
+	std::ifstream file_pipeline("pipelines.txt");
+	if (file_pipeline.is_open()) {
+		cout << "pipeline:\n";
+		cout << "kilometer sign\t" << "length of pipe\t" << "diameter\t" << "repair indicator\t" << std::endl;
+		while (std::getline(file_pipeline, line)) {
+			cout << line << "\n";
 		}
-		file.close();
+		file_pipeline.close();
+	}
+
+	std::ifstream file_cs("cs.txt");
+	if (file_cs.is_open()) {
+		cout << "cs:\n";
+		cout << "name  " << "number of workshops  " << "workshops in work  " << "efficiency" << std::endl;
+		while (std::getline(file_cs, line)) {
+			cout << line << "\n";
+		}
+		file_cs.close();
 	}
 };
