@@ -179,7 +179,7 @@ void view_objects()
 
 	std::string line;
 	std::ifstream file_pipeline("pipelines.txt");
-	if (file_pipeline.is_open()) 
+	if (file_pipeline.is_open() && !(file_pipeline.peek() == EOF))
 	{
 		cout << "pipeline:\n";
 		cout << "kilometer sign\t" << "length of pipe\t" << "diameter\t" << "repair indicator\t" << std::endl;
@@ -188,9 +188,11 @@ void view_objects()
 		}
 		file_pipeline.close();
 	}
+	else { cout << "file pipelines.txt is empty or not find\n"; };
+
 
 	std::ifstream file_cs("cs.txt");
-	if (file_cs.is_open()) 
+	if (file_cs.is_open() && !(file_cs.peek() == EOF))
 	{
 		cout << "cs:\n";
 		cout << "name  " << "number of workshops  " << "workshops in work  " << "efficiency" << std::endl;
@@ -199,7 +201,7 @@ void view_objects()
 		}
 		file_cs.close();
 	}
-	cout << std::endl;
+	else { cout << "file cs.txt is empty or not find\n"; };
 	start_menu();
 };
 
