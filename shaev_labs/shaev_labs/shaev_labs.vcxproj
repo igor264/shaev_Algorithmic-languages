@@ -135,8 +135,7 @@
     <ClInclude Include="structurs.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="cs.txt" />
-    <Text Include="pipelines.txt" />
+    <Text Include="save.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

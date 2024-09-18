@@ -31,7 +31,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="pipelines.txt" />
-    <Text Include="cs.txt" />
+    <Text Include="save.txt" />
   </ItemGroup>
 </Project>

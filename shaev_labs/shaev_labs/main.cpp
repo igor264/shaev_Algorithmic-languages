@@ -6,6 +6,6 @@ using std::cout;
 
 int main()
 {   
-    start_menu();
+    menu();
     return 0;
 };
