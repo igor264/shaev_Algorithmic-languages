@@ -1,8 +1,4 @@
-﻿#include <iostream>
-#include "menu.h"
-
-using std::cout;
-
+﻿#include "menu.h"
 
 int main()
 {   

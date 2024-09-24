@@ -1,1 +1,5 @@
-@pipeline@%%hilehgl%%56%%56%%0
+@cs@
+cs #1
+10
+9
+90

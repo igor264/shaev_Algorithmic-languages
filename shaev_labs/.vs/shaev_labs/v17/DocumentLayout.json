@@ -3,13 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\STRING||{3B902123-F8A7-4915-9F01-361F908088D0}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\save.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\save.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -24,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\structurs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\structurs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\save.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{103944AD-BC8B-46D1-A0BD-0495408DA63F}|shaev_labs\\shaev_labs.vcxproj|solutionrelative:shaev_labs\\save.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,33 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "string",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\string",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\string",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\string",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\string",
-              "ViewState": "AQIAAFIAAAAAAAAAAIAwwGQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-18T12:00:08.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "save.txt",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\save.txt",
               "RelativeDocumentMoniker": "shaev_labs\\save.txt",
               "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\save.txt",
               "RelativeToolTip": "shaev_labs\\save.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-18T05:57:48.763Z",
+              "WhenOpened": "2024-09-24T08:25:31.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "menu.h",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.h",
               "RelativeDocumentMoniker": "shaev_labs\\menu.h",
@@ -88,39 +72,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "structurs.h",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\structurs.h",
               "RelativeDocumentMoniker": "shaev_labs\\structurs.h",
               "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\structurs.h",
               "RelativeToolTip": "shaev_labs\\structurs.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAApAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-10T07:36:29.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "menu.cpp",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.cpp",
               "RelativeDocumentMoniker": "shaev_labs\\menu.cpp",
-              "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.cpp",
-              "RelativeToolTip": "shaev_labs\\menu.cpp",
-              "ViewState": "AQIAALUAAAAAAAAAAAAmwM0AAAATAAAA",
+              "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\menu.cpp*",
+              "RelativeToolTip": "shaev_labs\\menu.cpp*",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAswJkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-06T15:17:31.145Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\main.cpp",
               "RelativeDocumentMoniker": "shaev_labs\\main.cpp",
               "ToolTip": "C:\\Users\\igors\\Documents\\GitHub\\shaev_Algorithmic-languages\\shaev_labs\\shaev_labs\\main.cpp",
               "RelativeToolTip": "shaev_labs\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-06T13:31:53.295Z",
               "EditorCaption": ""
